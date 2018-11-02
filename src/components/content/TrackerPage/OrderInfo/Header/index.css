@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'poppins-medium'; 
+    src: url('../../../../../assets/fonts/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+    font-family: 'poppins-regular'; 
+    src: url('../../../../../assets/fonts/Poppins-Regular.ttf'); 
+}
+
+.client-img {
+	max-width: 120px;
+	max-height: 40px;
+}
+
+.order-details-header {
+	  margin: 0;
+	  line-height: 20px !important;
+	  background-color: #FFFFFF !important;
+	  border-radius: 0;
+	  position: sticky;
+	  height: 64px;
+	  top: 0;
+	  z-index: 100000;
+	  left: 0;
+	  right: 0;
+}
+
+.order-details-header>div {
+	padding: 0 !important;
+}
+
+.order-details-header-right {
+	font-size: 14px;
+	font-family: 'roboto-medium', sans-serif;
+	font-weight: 500;
+	color: #383f47;
+}
+
+.order-details-header-rn {
+	font-size: 12px;
+	font-family: 'roboto-regular', sans-serif;
+	color: #383f47;
+	opacity: 0.7;
+}
+
+.task-id-link {
+	cursor: text;
+}
+
+@media screen and (max-width: 767px) {
+	.order-details-header { 
+		position: fixed;
+		-webkit-transform: translate3d(0, 0, 0);
+    	perspective: 1000;
+	}
+}

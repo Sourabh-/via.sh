@@ -1,0 +1,65 @@
+.profile-img-rider {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle; 
+  display: inline-block;
+}
+
+.rider-details-box {
+	display: flex;
+	align-items: center;
+	height: 70px;
+}
+
+.rider-details-box-pic {
+	margin-top: 25px;
+	margin-left: -13px !important;
+	width: 82% !important;
+}
+
+.rider-details-name {
+	margin-left: 10px;
+	vertical-align: middle; 
+    display: inline-block;
+    margin-top: 1px;
+}
+
+.rider-image-container {
+	margin-top: -5px;
+	display: flex;
+	align-items: center;
+}
+
+.rider-details-name-s1 {
+	color: #383f47;
+	font-size: 14px;
+}
+
+.rider-details-name-s2 {
+	font-size: 12px;
+}
+
+.rider-mobno {
+	font-size: 14px;
+    color: #383f47;
+}
+
+.line-ver {
+  width: 1px;
+  height: 38px;
+  opacity: 0.25;
+  border: solid 0.5px #979797;
+  display: inline-block;
+  margin-right: 16px;
+  vertical-align: sub;
+  margin-top: 6px;
+}
+
+.call-rider-sym {
+	display: inline-block;
+	padding-bottom: 5px;
+}
+
+.rider-card {
+	cursor: default !important; 
+}

@@ -1,0 +1,123 @@
+.statusAddressSection {
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    background-color: #fcfcfc;
+    box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.order-details-amount-text {
+    padding-top: 12px;
+}
+
+.order-details-amount-pay {
+    opacity: 0.7;
+    color: #4d4d4d;
+}
+
+.order-details-amount {
+	color: #34ca62;
+	font-size: 14px;
+}
+
+.order-details-collapsed {
+	display: block;
+	padding-bottom: 34px;
+    color: #383f47;
+    border-bottom: none !important;
+    border-radius: 2px;
+}
+
+.order-pin-box {
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.1);
+    min-width: 3rem;
+    padding: 0 6px;
+    margin-left: 14px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 22px;
+    height: 22px;
+    color: #383f47;
+    float: right;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 14px;
+}
+
+.order-status-box {
+    line-height: 40px;
+    padding: 0 !important;
+    margin-top: -12px;
+}
+
+.status-header {
+    margin-bottom: 0;
+}
+
+.status-eta {
+    margin-top: 5px !important;
+}
+
+.arrow-key {
+    margin-right: -24px;
+    opacity: 0.7;
+}
+
+.divider-margin {
+    margin-top: 15px;
+    margin-bottom: -8px;
+}
+
+.pm {
+    font-size: 20px;
+}
+
+.order-cancel-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ff6666;
+}
+
+.order-deli-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #34ca62;
+}
+
+.order-time-text {
+    opacity: 0.7;
+    color: #383f47;
+    font-size: 14px;
+}
+
+.order-client-name {
+    opacity: 0.7;
+    font-size: 14px;
+    color: #383f47;
+}
+
+.separator-other {
+    height: 1px;
+    opacity: 0.2;
+    border-radius: 2px;
+    background-color: #383f47;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
+.status-card {
+    cursor: default !important;
+}
+
+@media screen and (max-width: 1025px) and (min-width: 768px) {
+    .order-time-text {
+        font-size: 12px;
+    }
+}
